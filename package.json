@@ -1,0 +1,28 @@
+{
+  "name": "ra-homework-2-5-2-backend",
+  "version": "1.0.0",
+  "description": "ra-homework-2-5-2-backend",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cesaress/ra-homework-2-5-2-backend.git"
+  },
+  "author": "Cesaress",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cesaress/ra-homework-2-5-2-backend/issues"
+  },
+  "homepage": "https://github.com/Cesaress/ra-homework-2-5-2-backend#readme",
+  "dependencies": {
+    "forever": "^3.0.4",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.0.0",
+    "koa2-cors": "^2.0.6"
+  }
+}
